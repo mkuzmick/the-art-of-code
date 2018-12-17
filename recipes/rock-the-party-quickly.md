@@ -50,7 +50,7 @@ Here are the steps:
         ```
         #!/bin/bash
 
-        VIDEO_TITLE=$(youtube-dl -e --get-title  miPMQ544vM0)
+        VIDEO_TITLE=$(youtube-dl -e --get-title  $1)
         say "we are about to rock the party by downloading $VIDEO_TITLE"
         youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best' -o "~/Desktop/%(title)s-%(id)s.%(ext)s" $1
         say "all done downloading. we are now ready to rock the party"
