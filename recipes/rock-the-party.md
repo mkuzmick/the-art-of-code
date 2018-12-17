@@ -38,7 +38,7 @@ echo "These are all of your development projects:"
 ls
 echo "done."
 ```
-To actually RUN this script you'll need to find it in your Terminal and make it **executable**, which you can do by typing
+3. To actually RUN this script you'll need to find it in your Terminal and make it **executable**, which you can do by typing
 ```
 chmod 755 ~/Development/scripts/myscript.sh
 ```
