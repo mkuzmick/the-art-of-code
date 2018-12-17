@@ -55,4 +55,4 @@ Here are the steps:
         youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best' -o "~/Desktop/%(title)s-%(id)s.%(ext)s" $1
         say "all done downloading. we are now ready to rock the party"
         ```
-        Now it's all ready to run--go ahead and type `rocktheparty miPMQ544vM0`
+  Now it's all ready to run--go ahead and type `rocktheparty miPMQ544vM0`
