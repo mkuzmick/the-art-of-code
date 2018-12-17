@@ -47,6 +47,7 @@ Here are the steps:
     ```
     obviously changing my `mk` to whatever your User name is. Once you do this you need to open a new Terminal window for it to take effect, but in this new Terminal window you *should* be able to simply type `rocktheparty.sh` to run the script. In fact, why don't we just change it's name to `rocktheparty` or even `rock` or `rpt` (with no extension). Now, just like `ls` and `cd` and all of your other favorites, `rocktheparty` will be launchable from "anywhere" you are in the Terminal.
 11. So now let's add our `youtube-dl` code. We know that we can type `youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'` to get the right format, and other options for filename etc.--but these are very difficult, if not impossible to remember. So the script will really help us out by remembering the code for us and making it easily accessible. In your script, use the following code:
+
         ```
         #!/bin/bash
 
