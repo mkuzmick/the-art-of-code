@@ -23,27 +23,27 @@ That first line opens up the script by telling the computer which app to use as 
 But where do we put these lines?  And how do we run them? Let's do a quick step-by-step runthrough of what we'd do to write a simple executable script.
 
 1. Navigate to a folder you'd like to use to hold your scripts.  You'll probably enter something like
-```
-cd ~/Development
-mkdir scripts
-cd scripts
-atom .
-```
+    ```
+    cd ~/Development
+    mkdir scripts
+    cd scripts
+    atom .
+    ```
 2. Now--in Atom--create a new file and call it `myscript.sh`.  Start off with that `#!/bin/bash` line and then add some commands it might be interesting to chain together.
-```
-#!/bin/bash
+    ```
+    #!/bin/bash
 
-cd ~/Development
-echo "These are all of your development projects:"
-ls
-echo "done."
-```
+    cd ~/Development
+    echo "These are all of your development projects:"
+    ls
+    echo "done."
+    ```
 3. To actually RUN this script you'll need to find it in your Terminal and make it **executable**, which you can do by typing
-```
-chmod 755 ~/Development/scripts/myscript.sh
-```
+    ```
+    chmod 755 ~/Development/scripts/myscript.sh
+    ```
 And once you've done that, all you need to do is enter the full path to your script to run it:
-```
-~/Development/scripts/myscript.sh
-```
+    ```
+    ~/Development/scripts/myscript.sh
+    ```
 (if you put your script somewhere else, you'll need to enter something different)
