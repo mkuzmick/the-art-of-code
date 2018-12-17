@@ -42,8 +42,9 @@ But where do we put these lines?  And how do we run them? Let's do a quick step-
     ```
     chmod 755 ~/Development/scripts/myscript.sh
     ```
-And once you've done that, all you need to do is enter the full path to your script to run it:
+    And once you've done that, all you need to do is enter the full path to your script to run it:
     ```
     ~/Development/scripts/myscript.sh
     ```
-(if you put your script somewhere else, you'll need to enter something different)
+    (if you put your script somewhere else, you'll need to enter something different)
+4. Now let's start the actual script you'
