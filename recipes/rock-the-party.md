@@ -38,3 +38,12 @@ echo "These are all of your development projects:"
 ls
 echo "done."
 ```
+To actually RUN this script you'll need to find it in your Terminal and make it **executable**, which you can do by typing
+```
+chmod 755 ~/Development/scripts/myscript.sh
+```
+And once you've done that, all you need to do is enter the full path to your script to run it:
+```
+~/Development/scripts/myscript.sh
+```
+(if you put your script somewhere else, you'll need to enter something different)
