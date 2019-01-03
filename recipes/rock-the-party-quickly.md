@@ -11,7 +11,7 @@ Here are the steps:
     atom .
     ```
 2. Once you're in Atom, create a new file and save it as `rocktheparty.sh`.
-3. We need to start of all the scripts we write with a line that tells the computer which "interpreter" to use as it parses our code.  For shell scripts, we are going to add `#!/bin/bash` as the first line (for a node.js script we'd add `#!/usr/bin/env node`).
+3. We need to start off all the scripts we write with a line that tells the computer which "interpreter" to use as it parses our code.  For shell scripts, we are going to add `#!/bin/bash` as the first line (for a node.js script we'd add `#!/usr/bin/env node`).
 4. Next, let's just add a quick echo command to get started--you can do whatever you'd like, but end up with something like
     ```
     #!/bin/bash
@@ -41,7 +41,7 @@ Here are the steps:
     echo "$1, we are about to rock the party"
     ```
     And then when you run the script, add your name at the end (after a space), for me, this would be `~/Development/_scripts/rocktheparty.sh Marlon`. Hopefully you get something like `Marlon, we are about to rock the party` back.
-10. To truly rock the party you don't want to have to actually type in `~/Development/_scripts/rocktheparty.sh`. What we want to do is **add ~/Development/_scripts to our $PATH** so that our computer can just find the command there (just like it can find `ls` and `date` and the other commands we use). So we need to add something to a file called `~./bash_profile`--a file that may or may not yet exist on your machine. Open it up by entering `nano ~/.bash_profile` (be really careful to enter the right code here). Then add the following line at the end of that file in nano.
+10. To truly rock the party you don't want to have to actually type in `~/Development/_scripts/rocktheparty.sh`. What we want to do is **add ~/Development/_scripts to our $PATH** so that our computer can just find the command there (just like it can find `ls` and `date` and the other commands we use). So we need to go back to Terminal to add something to a file called `~./bash_profile`--a file that may or may not yet exist on your machine. Open it up by entering `nano ~/.bash_profile` in Terminal (be really careful to enter the right code here). Then add the following line at the end of that file in nano.
     ```
     export PATH="/Users/mk/Development/_scripts:"$PATH
     ```
