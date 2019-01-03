@@ -18,7 +18,7 @@ Here are the steps:
 
     echo "we are about to rock the party"
     ```
-5. To actually **run** the script we'll need to make it "executable", and we do this by entering
+5. To actually **run** the script we'll need to make it "executable", and we do this by entering the following **IN TERMINAL**.
     ```
     chmod 755  ~/Development/_scripts/rocktheparty.sh
     ```
