@@ -4,7 +4,7 @@ so.
 
 Airtable is cool. We all know this. Even those of us who momentarily resist its charms give in, ultimately.
 
-But it is definitely a *little* bit more difficult to enter data into Airtable whenever and wherever you'd like. Slack offers users a greedy and accepting interface, sucking in data with delight. Airtable resists.
+But it is definitely a *little* bit difficult to enter data into Airtable whenever and wherever you'd like. Slack offers users a comparatively greedy and accepting interface, sucking in data with delight. Airtable resists.
 
 In part this is due to Airtable's demands for structure. If you've ever tried to use Slack to store and retrieve ideas, you'll realize that there's a downside to its gleeful acceptance of all your random thoughts and links and media: you can never find it again.
 
